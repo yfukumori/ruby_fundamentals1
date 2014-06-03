@@ -1,2 +1,5 @@
 #Exercise 3
-puts "What's your name?"
+print "What's your name? "
+name = gets.chomp
+puts "Hi, #{name}!"
+
